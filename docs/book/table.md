@@ -32,10 +32,10 @@ Options include:
 - `AutoSeparate`: How the rows are separated with horizontal lines; the default
   is to separate all rows. This is defined as a bitmask containing one ore more
   of the following `Laminas\Text\Table` constants:
-  - `Laminas\Text\Table\Table::AUTO_SEPARATE_NONE`
-  - `Laminas\Text\Table\Table::AUTO_SEPARATE_HEADER`
-  - `Laminas\Text\Table\Table::AUTO_SEPARATE_FOOTER`
-  - `Laminas\Text\Table\Table::AUTO_SEPARATE_ALL`
+    - `Laminas\Text\Table\Table::AUTO_SEPARATE_NONE`
+    - `Laminas\Text\Table\Table::AUTO_SEPARATE_HEADER`
+    - `Laminas\Text\Table\Table::AUTO_SEPARATE_FOOTER`
+    - `Laminas\Text\Table\Table::AUTO_SEPARATE_ALL`
   Where header is always the first row, and the footer is always the last row.
 
 Rows are added to the table by creating a new instance of `Laminas\Text\Table\Row`

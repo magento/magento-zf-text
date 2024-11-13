@@ -1,519 +1,510 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<files psalm-version="5.1.0@4defa177c89397c5e14737a80fe4896584130674">
+<files psalm-version="5.26.1@d747f6500b38ac4f7dfc5edbcae6e4b637d7add0">
   <file src="src/Figlet/Figlet.php">
-    <DocblockTypeContradiction occurrences="3">
-      <code>$char === false</code>
-      <code>$char === false</code>
-      <code>is_string($text)</code>
+    <DocblockTypeContradiction>
+      <code><![CDATA[$char === false]]></code>
+      <code><![CDATA[$char === false]]></code>
+      <code><![CDATA[is_string($text)]]></code>
     </DocblockTypeContradiction>
-    <FalsableReturnStatement occurrences="1">
-      <code>false</code>
+    <FalsableReturnStatement>
+      <code><![CDATA[false]]></code>
     </FalsableReturnStatement>
-    <InvalidArrayOffset occurrences="4">
-      <code>$firstPart[$i]</code>
-      <code>$firstPart[$i]</code>
-      <code>$lastPart[$i]</code>
-      <code>$lastPart[$i]</code>
+    <InvalidArrayOffset>
+      <code><![CDATA[$firstPart[$i]]]></code>
+      <code><![CDATA[$firstPart[$i]]]></code>
+      <code><![CDATA[$lastPart[$i]]]></code>
+      <code><![CDATA[$lastPart[$i]]]></code>
     </InvalidArrayOffset>
-    <InvalidFalsableReturnType occurrences="1">
-      <code>array</code>
+    <InvalidFalsableReturnType>
+      <code><![CDATA[array]]></code>
     </InvalidFalsableReturnType>
-    <InvalidLiteralArgument occurrences="20">
-      <code>'()'</code>
-      <code>'()'</code>
-      <code>'()&lt;&gt;'</code>
-      <code>'()&lt;&gt;'</code>
-      <code>'/\\'</code>
-      <code>'/\\'</code>
-      <code>'/\\[]{}()&lt;&gt;'</code>
-      <code>'/\\[]{}()&lt;&gt;'</code>
-      <code>'&lt;&gt;'</code>
-      <code>'&lt;&gt;'</code>
-      <code>'[]'</code>
-      <code>'[]'</code>
-      <code>'[]{}()&lt;&gt;'</code>
-      <code>'[]{}()&lt;&gt;'</code>
-      <code>'{}'</code>
-      <code>'{}'</code>
-      <code>'{}()&lt;&gt;'</code>
-      <code>'{}()&lt;&gt;'</code>
-      <code>'|/\\[]{}()&lt;&gt;'</code>
-      <code>'|/\\[]{}()&lt;&gt;'</code>
+    <InvalidLiteralArgument>
+      <code><![CDATA['()']]></code>
+      <code><![CDATA['()']]></code>
+      <code><![CDATA['()<>']]></code>
+      <code><![CDATA['()<>']]></code>
+      <code><![CDATA['/\\']]></code>
+      <code><![CDATA['/\\']]></code>
+      <code><![CDATA['/\\[]{}()<>']]></code>
+      <code><![CDATA['/\\[]{}()<>']]></code>
+      <code><![CDATA['<>']]></code>
+      <code><![CDATA['<>']]></code>
+      <code><![CDATA['[]']]></code>
+      <code><![CDATA['[]']]></code>
+      <code><![CDATA['[]{}()<>']]></code>
+      <code><![CDATA['[]{}()<>']]></code>
+      <code><![CDATA['{}']]></code>
+      <code><![CDATA['{}']]></code>
+      <code><![CDATA['{}()<>']]></code>
+      <code><![CDATA['{}()<>']]></code>
+      <code><![CDATA['|/\\[]{}()<>']]></code>
+      <code><![CDATA['|/\\[]{}()<>']]></code>
     </InvalidLiteralArgument>
-    <InvalidNullableReturnType occurrences="1">
-      <code>string</code>
+    <InvalidNullableReturnType>
+      <code><![CDATA[string]]></code>
     </InvalidNullableReturnType>
-    <InvalidPropertyAssignmentValue occurrences="1">
-      <code>$this-&gt;charList</code>
+    <InvalidPropertyAssignmentValue>
+      <code><![CDATA[$this->charList]]></code>
     </InvalidPropertyAssignmentValue>
-    <MixedArgument occurrences="18">
-      <code>$firstPart[$i]</code>
-      <code>$lastPart[$i]</code>
-      <code>$leftChar</code>
-      <code>$tempLine[$position]</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$row]</code>
-      <code>$this-&gt;currentChar[$row]</code>
-      <code>$this-&gt;currentChar[$row][$k]</code>
-      <code>$this-&gt;currentChar[0]</code>
-      <code>$this-&gt;outputLine[$i]</code>
-      <code>$this-&gt;outputLine[$row]</code>
-      <code>$this-&gt;outputLine[$row]</code>
-      <code>$this-&gt;outputLine[$row][$k]</code>
-      <code>$this-&gt;outputLine[0]</code>
-      <code>$rightChar</code>
+    <MixedArgument>
+      <code><![CDATA[$firstPart[$i]]]></code>
+      <code><![CDATA[$lastPart[$i]]]></code>
+      <code><![CDATA[$leftChar]]></code>
+      <code><![CDATA[$leftChar]]></code>
+      <code><![CDATA[$rightChar]]></code>
+      <code><![CDATA[$tempLine[$position]]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$row]]]></code>
+      <code><![CDATA[$this->currentChar[$row]]]></code>
+      <code><![CDATA[$this->currentChar[$row][$k]]]></code>
+      <code><![CDATA[$this->currentChar[0]]]></code>
+      <code><![CDATA[$this->outputLine[$i]]]></code>
+      <code><![CDATA[$this->outputLine[$row]]]></code>
+      <code><![CDATA[$this->outputLine[$row]]]></code>
+      <code><![CDATA[$this->outputLine[$row][$k]]]></code>
+      <code><![CDATA[$this->outputLine[0]]]></code>
     </MixedArgument>
-    <MixedArgumentTypeCoercion occurrences="3">
-      <code>$char</code>
-      <code>$key</code>
-      <code>$key</code>
+    <MixedArgumentTypeCoercion>
+      <code><![CDATA[$char]]></code>
+      <code><![CDATA[$key]]></code>
+      <code><![CDATA[$key]]></code>
     </MixedArgumentTypeCoercion>
-    <MixedArrayAccess occurrences="8">
-      <code>$tempLine[$position]</code>
-      <code>$this-&gt;currentChar[$row][$charbd]</code>
-      <code>$this-&gt;currentChar[$row][$charbd]</code>
-      <code>$this-&gt;currentChar[$row][$k]</code>
-      <code>$this-&gt;currentChar[0]</code>
-      <code>$this-&gt;outputLine[$row][$k]</code>
-      <code>$this-&gt;outputLine[$row][$linebd]</code>
-      <code>$this-&gt;outputLine[$row][$linebd]</code>
+    <MixedArrayAccess>
+      <code><![CDATA[$tempLine[$position]]]></code>
+      <code><![CDATA[$this->currentChar[$row][$charbd]]]></code>
+      <code><![CDATA[$this->currentChar[$row][$charbd]]]></code>
+      <code><![CDATA[$this->currentChar[$row][$k]]]></code>
+      <code><![CDATA[$this->currentChar[0]]]></code>
+      <code><![CDATA[$this->outputLine[$row][$k]]]></code>
+      <code><![CDATA[$this->outputLine[$row][$linebd]]]></code>
+      <code><![CDATA[$this->outputLine[$row][$linebd]]]></code>
     </MixedArrayAccess>
-    <MixedArrayAssignment occurrences="2">
-      <code>$tempLine[$position]</code>
-      <code>$this-&gt;outputLine[$row][$position]</code>
+    <MixedArrayAssignment>
+      <code><![CDATA[$tempLine[$position]]]></code>
+      <code><![CDATA[$this->outputLine[$row][$position]]]></code>
     </MixedArrayAssignment>
-    <MixedArrayOffset occurrences="2">
-      <code>$this-&gt;charList[$uniCode]</code>
-      <code>$this-&gt;inCharLine[$lastSpace + 1 + $i]</code>
+    <MixedArrayOffset>
+      <code><![CDATA[$this->charList[$uniCode]]]></code>
+      <code><![CDATA[$this->inCharLine[$lastSpace + 1 + $i]]]></code>
     </MixedArrayOffset>
-    <MixedAssignment occurrences="11">
-      <code>$lastLength</code>
-      <code>$lastPart[$i]</code>
-      <code>$leftChar</code>
-      <code>$leftChar</code>
-      <code>$leftChar</code>
-      <code>$rightChar</code>
-      <code>$rightChar</code>
-      <code>$tempLine</code>
-      <code>$this-&gt;currentChar</code>
-      <code>$uniCode</code>
-      <code>$value</code>
+    <MixedAssignment>
+      <code><![CDATA[$lastLength]]></code>
+      <code><![CDATA[$lastPart[$i]]]></code>
+      <code><![CDATA[$leftChar]]></code>
+      <code><![CDATA[$leftChar]]></code>
+      <code><![CDATA[$leftChar]]></code>
+      <code><![CDATA[$rightChar]]></code>
+      <code><![CDATA[$rightChar]]></code>
+      <code><![CDATA[$tempLine]]></code>
+      <code><![CDATA[$this->currentChar]]></code>
+      <code><![CDATA[$uniCode]]></code>
+      <code><![CDATA[$value]]></code>
     </MixedAssignment>
-    <MixedOperand occurrences="5">
-      <code>$lastSpace</code>
-      <code>$lastSpace</code>
-      <code>$tempLine</code>
-      <code>$this-&gt;inCharLineLength - $lastSpace</code>
-      <code>$this-&gt;outputLine[$row]</code>
+    <MixedOperand>
+      <code><![CDATA[$lastSpace]]></code>
+      <code><![CDATA[$lastSpace]]></code>
+      <code><![CDATA[$tempLine]]></code>
+      <code><![CDATA[$this->inCharLineLength - $lastSpace]]></code>
+      <code><![CDATA[$this->outputLine[$row]]]></code>
     </MixedOperand>
-    <MixedStringOffsetAssignment occurrences="1">
-      <code>$lastPart[$i]</code>
+    <MixedStringOffsetAssignment>
+      <code><![CDATA[$lastPart[$i]]]></code>
     </MixedStringOffsetAssignment>
-    <ParadoxicalCondition occurrences="2">
-      <code>$leftChar === ' '</code>
-      <code>$rightChar === ' '</code>
+    <ParadoxicalCondition>
+      <code><![CDATA[$leftChar === ' ']]></code>
+      <code><![CDATA[$rightChar === ' ']]></code>
     </ParadoxicalCondition>
-    <PossiblyFalseArgument occurrences="8">
-      <code>$char</code>
-      <code>$char</code>
-      <code>$char</code>
-      <code>$char</code>
-      <code>$text</code>
-      <code>$text</code>
-      <code>$text</code>
-      <code>$text</code>
+    <PossiblyFalseArgument>
+      <code><![CDATA[$char]]></code>
+      <code><![CDATA[$char]]></code>
+      <code><![CDATA[$char]]></code>
+      <code><![CDATA[$char]]></code>
+      <code><![CDATA[$text]]></code>
+      <code><![CDATA[$text]]></code>
+      <code><![CDATA[$text]]></code>
+      <code><![CDATA[$text]]></code>
     </PossiblyFalseArgument>
-    <PossiblyInvalidArgument occurrences="1">
-      <code>$this-&gt;outputLine[0]</code>
+    <PossiblyInvalidArgument>
+      <code><![CDATA[$this->outputLine[0]]]></code>
     </PossiblyInvalidArgument>
-    <PossiblyInvalidOperand occurrences="3">
-      <code>$smush</code>
-      <code>$this-&gt;maxLength</code>
-      <code>$this-&gt;rightToLeft</code>
+    <PossiblyInvalidOperand>
+      <code><![CDATA[$smush]]></code>
+      <code><![CDATA[$this->maxLength]]></code>
+      <code><![CDATA[$this->rightToLeft]]></code>
     </PossiblyInvalidOperand>
-    <PossiblyInvalidPropertyAssignmentValue occurrences="10">
-      <code>$rightToLeft</code>
-      <code>$this-&gt;charHeight</code>
-      <code>$this-&gt;fontSmush</code>
-      <code>$this-&gt;hardBlank</code>
-      <code>$this-&gt;maxLength</code>
-      <code>$this-&gt;maxLength += 100</code>
-      <code>($smush &amp; 31) | self::SM_SMUSH</code>
-      <code>2 * $this-&gt;rightToLeft</code>
-      <code>max(1, $this-&gt;charHeight)</code>
-      <code>max(1, $this-&gt;maxLength)</code>
+    <PossiblyInvalidPropertyAssignmentValue>
+      <code><![CDATA[$rightToLeft]]></code>
+      <code><![CDATA[$this->charHeight]]></code>
+      <code><![CDATA[$this->fontSmush]]></code>
+      <code><![CDATA[$this->hardBlank]]></code>
+      <code><![CDATA[$this->maxLength]]></code>
+      <code><![CDATA[$this->maxLength += 100]]></code>
+      <code><![CDATA[($smush & 31) | self::SM_SMUSH]]></code>
+      <code><![CDATA[2 * $this->rightToLeft]]></code>
+      <code><![CDATA[max(1, $this->charHeight)]]></code>
+      <code><![CDATA[max(1, $this->maxLength)]]></code>
     </PossiblyInvalidPropertyAssignmentValue>
-    <PossiblyNullArgument occurrences="5">
-      <code>$leftChar</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$row]</code>
+    <PossiblyNullArgument>
+      <code><![CDATA[$leftChar]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$row]]]></code>
     </PossiblyNullArgument>
-    <PossiblyNullArrayAccess occurrences="3">
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$i]</code>
-      <code>$this-&gt;currentChar[$row]</code>
+    <PossiblyNullArrayAccess>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$i]]]></code>
+      <code><![CDATA[$this->currentChar[$row]]]></code>
     </PossiblyNullArrayAccess>
-    <PossiblyNullOperand occurrences="3">
-      <code>$smush</code>
-      <code>$this-&gt;maxLength</code>
-      <code>$this-&gt;rightToLeft</code>
+    <PossiblyNullOperand>
+      <code><![CDATA[$smush]]></code>
+      <code><![CDATA[$this->maxLength]]></code>
+      <code><![CDATA[$this->rightToLeft]]></code>
     </PossiblyNullOperand>
-    <PossiblyUndefinedVariable occurrences="2">
-      <code>$lastSpace</code>
-      <code>$lastSpace</code>
+    <PossiblyUndefinedVariable>
+      <code><![CDATA[$lastSpace]]></code>
+      <code><![CDATA[$lastSpace]]></code>
     </PossiblyUndefinedVariable>
-    <PropertyNotSetInConstructor occurrences="6">
-      <code>$charHeight</code>
-      <code>$hardBlank</code>
-      <code>$inCharLine</code>
-      <code>$maxLength</code>
-      <code>$output</code>
-      <code>$outputLine</code>
+    <PropertyNotSetInConstructor>
+      <code><![CDATA[$charHeight]]></code>
+      <code><![CDATA[$hardBlank]]></code>
+      <code><![CDATA[$inCharLine]]></code>
+      <code><![CDATA[$maxLength]]></code>
+      <code><![CDATA[$output]]></code>
+      <code><![CDATA[$outputLine]]></code>
     </PropertyNotSetInConstructor>
-    <RedundantCastGivenDocblockType occurrences="5">
-      <code>(bool) $handleParagraphs</code>
-      <code>(int) $justification</code>
-      <code>(int) $outputWidth</code>
-      <code>(int) $rightToLeft</code>
-      <code>(int) $smushMode</code>
+    <RedundantCastGivenDocblockType>
+      <code><![CDATA[(bool) $handleParagraphs]]></code>
+      <code><![CDATA[(int) $justification]]></code>
+      <code><![CDATA[(int) $outputWidth]]></code>
+      <code><![CDATA[(int) $rightToLeft]]></code>
+      <code><![CDATA[(int) $smushMode]]></code>
     </RedundantCastGivenDocblockType>
-    <RedundantCondition occurrences="1">
-      <code>$uniCode !== '0'</code>
+    <RedundantCondition>
+      <code><![CDATA[$uniCode !== '0']]></code>
     </RedundantCondition>
-    <UnevaluatedCode occurrences="2">
-      <code>$maxSmush = min($amount, $maxSmush);</code>
-    </UnevaluatedCode>
-    <UnusedVariable occurrences="2">
-      <code>$amount</code>
-      <code>$amount</code>
-    </UnusedVariable>
-  <RedundantConditionGivenDocblockType occurrences="2">
-    <code>$this->_smushem($leftChar, $rightChar)</code>
-  </RedundantConditionGivenDocblockType>
+    <RedundantConditionGivenDocblockType>
+      <code><![CDATA[$this->_smushem($leftChar, $rightChar) !== null]]></code>
+    </RedundantConditionGivenDocblockType>
+    <RiskyTruthyFalsyComparison>
+      <code><![CDATA[! $nextChar]]></code>
+      <code><![CDATA[empty($leftChar)]]></code>
+      <code><![CDATA[empty($rightChar)]]></code>
+      <code><![CDATA[fgets($fp, 1000)]]></code>
+      <code><![CDATA[strstr('()', $leftChar)]]></code>
+      <code><![CDATA[strstr('()', $rightChar)]]></code>
+      <code><![CDATA[strstr('/\\', $leftChar)]]></code>
+      <code><![CDATA[strstr('/\\', $rightChar)]]></code>
+      <code><![CDATA[strstr('[]', $leftChar)]]></code>
+      <code><![CDATA[strstr('[]', $rightChar)]]></code>
+      <code><![CDATA[strstr('{}', $leftChar)]]></code>
+      <code><![CDATA[strstr('{}', $rightChar)]]></code>
+    </RiskyTruthyFalsyComparison>
   </file>
   <file src="src/Table/Column.php">
-    <DocblockTypeContradiction occurrences="3">
-      <code>is_int($colSpan) === false</code>
-      <code>is_int($columnWidth) === false</code>
-      <code>is_string($content) === false</code>
+    <DocblockTypeContradiction>
+      <code><![CDATA[is_int($colSpan) === false]]></code>
+      <code><![CDATA[is_int($columnWidth) === false]]></code>
+      <code><![CDATA[is_string($content) === false]]></code>
     </DocblockTypeContradiction>
-    <MixedArgument occurrences="1">
-      <code>$padMode</code>
+    <MixedArgument>
+      <code><![CDATA[$padMode]]></code>
     </MixedArgument>
-    <PossiblyFalsePropertyAssignmentValue occurrences="1">
-      <code>$content</code>
+    <PossiblyFalsePropertyAssignmentValue>
+      <code><![CDATA[$content]]></code>
     </PossiblyFalsePropertyAssignmentValue>
-    <PossiblyUndefinedVariable occurrences="1">
-      <code>$padMode</code>
+    <PossiblyUndefinedVariable>
+      <code><![CDATA[$padMode]]></code>
     </PossiblyUndefinedVariable>
-    <RedundantConditionGivenDocblockType occurrences="3">
-      <code>is_int($colSpan)</code>
-      <code>is_int($columnWidth)</code>
-      <code>is_string($content)</code>
+    <RedundantConditionGivenDocblockType>
+      <code><![CDATA[is_int($colSpan)]]></code>
+      <code><![CDATA[is_int($columnWidth)]]></code>
+      <code><![CDATA[is_string($content)]]></code>
     </RedundantConditionGivenDocblockType>
   </file>
   <file src="src/Table/Decorator/Unicode.php">
-    <FalsableReturnStatement occurrences="11">
-      <code>$this-&gt;_uniChar(0x2500)</code>
-      <code>$this-&gt;_uniChar(0x2502)</code>
-      <code>$this-&gt;_uniChar(0x250C)</code>
-      <code>$this-&gt;_uniChar(0x2510)</code>
-      <code>$this-&gt;_uniChar(0x2514)</code>
-      <code>$this-&gt;_uniChar(0x2518)</code>
-      <code>$this-&gt;_uniChar(0x251C)</code>
-      <code>$this-&gt;_uniChar(0x2524)</code>
-      <code>$this-&gt;_uniChar(0x252C)</code>
-      <code>$this-&gt;_uniChar(0x2534)</code>
-      <code>$this-&gt;_uniChar(0x253C)</code>
+    <FalsableReturnStatement>
+      <code><![CDATA[$this->_uniChar(0x2500)]]></code>
+      <code><![CDATA[$this->_uniChar(0x2502)]]></code>
+      <code><![CDATA[$this->_uniChar(0x250C)]]></code>
+      <code><![CDATA[$this->_uniChar(0x2510)]]></code>
+      <code><![CDATA[$this->_uniChar(0x2514)]]></code>
+      <code><![CDATA[$this->_uniChar(0x2518)]]></code>
+      <code><![CDATA[$this->_uniChar(0x251C)]]></code>
+      <code><![CDATA[$this->_uniChar(0x2524)]]></code>
+      <code><![CDATA[$this->_uniChar(0x252C)]]></code>
+      <code><![CDATA[$this->_uniChar(0x2534)]]></code>
+      <code><![CDATA[$this->_uniChar(0x253C)]]></code>
     </FalsableReturnStatement>
-    <InvalidFalsableReturnType occurrences="11">
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
-      <code>string</code>
+    <InvalidFalsableReturnType>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
+      <code><![CDATA[string]]></code>
     </InvalidFalsableReturnType>
   </file>
   <file src="src/Table/DecoratorManager.php">
-    <NonInvariantDocblockPropertyType occurrences="2">
-      <code>$aliases</code>
-      <code>$factories</code>
+    <NonInvariantDocblockPropertyType>
+      <code><![CDATA[$aliases]]></code>
+      <code><![CDATA[$factories]]></code>
     </NonInvariantDocblockPropertyType>
   </file>
   <file src="src/Table/Row.php">
-    <InvalidReturnStatement occurrences="1">
-      <code>$this-&gt;columnWidths</code>
+    <InvalidReturnStatement>
+      <code><![CDATA[$this->columnWidths]]></code>
     </InvalidReturnStatement>
-    <InvalidReturnType occurrences="1">
-      <code>int</code>
+    <InvalidReturnType>
+      <code><![CDATA[int]]></code>
     </InvalidReturnType>
-    <MixedArgument occurrences="6">
-      <code>$colNum</code>
-      <code>$colNum</code>
-      <code>$colSpan</code>
-      <code>$column-&gt;render($columnWidth, $padding)</code>
-      <code>$remainingWidth</code>
-      <code>$this-&gt;columnWidths[$index]</code>
+    <MixedArgument>
+      <code><![CDATA[$colNum]]></code>
+      <code><![CDATA[$colNum]]></code>
+      <code><![CDATA[$colSpan]]></code>
+      <code><![CDATA[$column->render($columnWidth, $padding)]]></code>
+      <code><![CDATA[$remainingWidth]]></code>
+      <code><![CDATA[$this->columnWidths[$index]]]></code>
     </MixedArgument>
-    <MixedAssignment occurrences="5">
-      <code>$colNum</code>
-      <code>$colSpan</code>
-      <code>$column</code>
-      <code>$columnWidth</code>
-      <code>$remainingWidth</code>
+    <MixedAssignment>
+      <code><![CDATA[$colNum]]></code>
+      <code><![CDATA[$colSpan]]></code>
+      <code><![CDATA[$column]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$remainingWidth]]></code>
     </MixedAssignment>
-    <MixedInferredReturnType occurrences="1">
-      <code>Column|null</code>
+    <MixedInferredReturnType>
+      <code><![CDATA[Column|null]]></code>
     </MixedInferredReturnType>
-    <MixedMethodCall occurrences="2">
-      <code>getColSpan</code>
-      <code>render</code>
+    <MixedMethodCall>
+      <code><![CDATA[getColSpan]]></code>
+      <code><![CDATA[render]]></code>
     </MixedMethodCall>
-    <MixedOperand occurrences="5">
-      <code>$colNum</code>
-      <code>$colSpan</code>
-      <code>$colSpan</code>
-      <code>$colSpan</code>
-      <code>count($columnWidths) - $colNum</code>
+    <MixedOperand>
+      <code><![CDATA[$colNum]]></code>
+      <code><![CDATA[$colSpan]]></code>
+      <code><![CDATA[$colSpan]]></code>
+      <code><![CDATA[$colSpan]]></code>
+      <code><![CDATA[count($columnWidths) - $colNum]]></code>
     </MixedOperand>
-    <MixedReturnStatement occurrences="1">
-      <code>$this-&gt;columns[$index]</code>
+    <MixedReturnStatement>
+      <code><![CDATA[$this->columns[$index]]]></code>
     </MixedReturnStatement>
   </file>
   <file src="src/Table/Table.php">
-    <InvalidNullableReturnType occurrences="1">
-      <code>DecoratorManager</code>
+    <InvalidNullableReturnType>
+      <code><![CDATA[DecoratorManager]]></code>
     </InvalidNullableReturnType>
-    <InvalidOperand occurrences="1">
-      <code>$rowNum</code>
+    <InvalidOperand>
+      <code><![CDATA[$rowNum]]></code>
     </InvalidOperand>
-    <MissingReturnType occurrences="2">
-      <code>setInputCharset</code>
-      <code>setOutputCharset</code>
+    <MissingReturnType>
+      <code><![CDATA[setInputCharset]]></code>
+      <code><![CDATA[setOutputCharset]]></code>
     </MissingReturnType>
-    <MixedArgument occurrences="6">
-      <code>$align</code>
-      <code>$columnData</code>
-      <code>$columnWidth</code>
-      <code>$columnWidth</code>
-      <code>$columnWidth</code>
-      <code>$columnWidths</code>
+    <MixedArgument>
+      <code><![CDATA[$align]]></code>
+      <code><![CDATA[$columnData]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidths]]></code>
     </MixedArgument>
-    <MixedArgumentTypeCoercion occurrences="2">
-      <code>$key</code>
-      <code>$key</code>
+    <MixedArgumentTypeCoercion>
+      <code><![CDATA[$key]]></code>
+      <code><![CDATA[$key]]></code>
     </MixedArgumentTypeCoercion>
-    <MixedArrayAccess occurrences="2">
-      <code>$columnWidths[$currentLowerColumn]</code>
-      <code>$lastColumnWidths[$currentUpperColumn]</code>
+    <MixedArrayAccess>
+      <code><![CDATA[$columnWidths[$currentLowerColumn]]]></code>
+      <code><![CDATA[$lastColumnWidths[$currentUpperColumn]]]></code>
     </MixedArrayAccess>
-    <MixedAssignment occurrences="19">
-      <code>$align</code>
-      <code>$columnData</code>
-      <code>$columnNum</code>
-      <code>$columnNum</code>
-      <code>$columnNum</code>
-      <code>$columnWidth</code>
-      <code>$columnWidth</code>
-      <code>$columnWidth</code>
-      <code>$columnWidths</code>
-      <code>$currentLowerWidth</code>
-      <code>$currentLowerWidth</code>
-      <code>$currentUpperWidth</code>
-      <code>$currentUpperWidth</code>
-      <code>$decorator</code>
-      <code>$lastColumnWidths</code>
-      <code>$renderedRow</code>
-      <code>$row</code>
-      <code>$this-&gt;decorator</code>
-      <code>$value</code>
+    <MixedAssignment>
+      <code><![CDATA[$align]]></code>
+      <code><![CDATA[$columnData]]></code>
+      <code><![CDATA[$columnNum]]></code>
+      <code><![CDATA[$columnNum]]></code>
+      <code><![CDATA[$columnNum]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidths]]></code>
+      <code><![CDATA[$currentLowerWidth]]></code>
+      <code><![CDATA[$currentLowerWidth]]></code>
+      <code><![CDATA[$currentUpperWidth]]></code>
+      <code><![CDATA[$currentUpperWidth]]></code>
+      <code><![CDATA[$decorator]]></code>
+      <code><![CDATA[$lastColumnWidths]]></code>
+      <code><![CDATA[$renderedRow]]></code>
+      <code><![CDATA[$row]]></code>
+      <code><![CDATA[$this->decorator]]></code>
+      <code><![CDATA[$value]]></code>
     </MixedAssignment>
-    <MixedMethodCall occurrences="2">
-      <code>getColumnWidths</code>
-      <code>render</code>
+    <MixedMethodCall>
+      <code><![CDATA[getColumnWidths]]></code>
+      <code><![CDATA[render]]></code>
     </MixedMethodCall>
-    <MixedOperand occurrences="8">
-      <code>$columnNum</code>
-      <code>$columnNum</code>
-      <code>$columnNum</code>
-      <code>$columnWidth</code>
-      <code>$columnWidth</code>
-      <code>$currentLowerWidth</code>
-      <code>$currentUpperWidth</code>
-      <code>$renderedRow</code>
+    <MixedOperand>
+      <code><![CDATA[$columnNum]]></code>
+      <code><![CDATA[$columnNum]]></code>
+      <code><![CDATA[$columnNum]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$columnWidth]]></code>
+      <code><![CDATA[$currentLowerWidth]]></code>
+      <code><![CDATA[$currentUpperWidth]]></code>
+      <code><![CDATA[$renderedRow]]></code>
     </MixedOperand>
-    <NullableReturnStatement occurrences="1">
-      <code>$this-&gt;decoratorManager</code>
+    <NullableReturnStatement>
+      <code><![CDATA[$this->decoratorManager]]></code>
     </NullableReturnStatement>
-    <PossiblyNullArgument occurrences="2">
-      <code>$this-&gt;columnWidths</code>
-      <code>$this-&gt;columnWidths</code>
+    <PossiblyNullArgument>
+      <code><![CDATA[$this->columnWidths]]></code>
+      <code><![CDATA[$this->columnWidths]]></code>
     </PossiblyNullArgument>
-    <PossiblyNullIterator occurrences="1">
-      <code>$this-&gt;columnWidths</code>
+    <PossiblyNullIterator>
+      <code><![CDATA[$this->columnWidths]]></code>
     </PossiblyNullIterator>
-    <PossiblyNullReference occurrences="1">
-      <code>getHorizontal</code>
+    <PossiblyNullReference>
+      <code><![CDATA[getHorizontal]]></code>
     </PossiblyNullReference>
-    <PossiblyUndefinedVariable occurrences="1">
-      <code>$lastColumnWidths</code>
+    <PossiblyUndefinedVariable>
+      <code><![CDATA[$lastColumnWidths]]></code>
     </PossiblyUndefinedVariable>
-    <RedundantCastGivenDocblockType occurrences="2">
-      <code>(int) $autoSeparate</code>
-      <code>(int) $padding</code>
+    <RedundantCastGivenDocblockType>
+      <code><![CDATA[(int) $autoSeparate]]></code>
+      <code><![CDATA[(int) $padding]]></code>
     </RedundantCastGivenDocblockType>
-    <MethodSignatureMustProvideReturnType occurence="1">
-      <code>__toString</code>
-    </MethodSignatureMustProvideReturnType>
   </file>
   <file src="test/FigletTest.php">
-    <InvalidArgument occurrences="1">
-      <code>1</code>
+    <InvalidArgument>
+      <code><![CDATA[1]]></code>
     </InvalidArgument>
-    <MissingParamType occurrences="2">
-      <code>$file</code>
-      <code>$output</code>
+    <MissingParamType>
+      <code><![CDATA[$file]]></code>
+      <code><![CDATA[$output]]></code>
     </MissingParamType>
-    <MissingReturnType occurrences="29">
-      <code>_equalAgainstFile</code>
-      <code>testArrayAccessConfig</code>
-      <code>testCharWrapLeftToRight</code>
-      <code>testCharWrapRightToLeft</code>
-      <code>testCorrectEncodingISO885915</code>
-      <code>testCorrectEncodingUTF8</code>
-      <code>testEmptyString</code>
-      <code>testGzippedFont</code>
-      <code>testIncorrectEncoding</code>
-      <code>testInvalidFont</code>
-      <code>testNonExistentFont</code>
-      <code>testOutputWidth</code>
-      <code>testParagraphOff</code>
-      <code>testParagraphOn</code>
-      <code>testSmushModeDefault</code>
-      <code>testSmushModeForced</code>
-      <code>testSmushModeInvalid</code>
-      <code>testSmushModeRemoved</code>
-      <code>testSmushModeRemovedRightToLeft</code>
-      <code>testSmushModeTooSmall</code>
-      <code>testStandardAlignCenter</code>
-      <code>testStandardAlignLeft</code>
-      <code>testStandardAlignRight</code>
-      <code>testStandardRightToLeftAlignCenter</code>
-      <code>testStandardRightToLeftAlignLeft</code>
-      <code>testStandardRightToLeftAlignRight</code>
-      <code>testWordWrapLeftToRight</code>
-      <code>testWordWrapRightToLeft</code>
-      <code>testWrongParameter</code>
+    <MissingReturnType>
+      <code><![CDATA[_equalAgainstFile]]></code>
+      <code><![CDATA[testArrayAccessConfig]]></code>
+      <code><![CDATA[testCharWrapLeftToRight]]></code>
+      <code><![CDATA[testCharWrapRightToLeft]]></code>
+      <code><![CDATA[testCorrectEncodingISO885915]]></code>
+      <code><![CDATA[testCorrectEncodingUTF8]]></code>
+      <code><![CDATA[testEmptyString]]></code>
+      <code><![CDATA[testGzippedFont]]></code>
+      <code><![CDATA[testIncorrectEncoding]]></code>
+      <code><![CDATA[testInvalidFont]]></code>
+      <code><![CDATA[testNonExistentFont]]></code>
+      <code><![CDATA[testOutputWidth]]></code>
+      <code><![CDATA[testParagraphOff]]></code>
+      <code><![CDATA[testParagraphOn]]></code>
+      <code><![CDATA[testSmushModeDefault]]></code>
+      <code><![CDATA[testSmushModeForced]]></code>
+      <code><![CDATA[testSmushModeInvalid]]></code>
+      <code><![CDATA[testSmushModeRemoved]]></code>
+      <code><![CDATA[testSmushModeRemovedRightToLeft]]></code>
+      <code><![CDATA[testSmushModeTooSmall]]></code>
+      <code><![CDATA[testStandardAlignCenter]]></code>
+      <code><![CDATA[testStandardAlignLeft]]></code>
+      <code><![CDATA[testStandardAlignRight]]></code>
+      <code><![CDATA[testStandardRightToLeftAlignCenter]]></code>
+      <code><![CDATA[testStandardRightToLeftAlignLeft]]></code>
+      <code><![CDATA[testStandardRightToLeftAlignRight]]></code>
+      <code><![CDATA[testWordWrapLeftToRight]]></code>
+      <code><![CDATA[testWordWrapRightToLeft]]></code>
+      <code><![CDATA[testWrongParameter]]></code>
     </MissingReturnType>
-    <MixedOperand occurrences="1">
-      <code>$file</code>
+    <MixedOperand>
+      <code><![CDATA[$file]]></code>
     </MixedOperand>
-    <UnusedVariable occurrences="2">
-      <code>$figlet</code>
-      <code>$figlet</code>
-    </UnusedVariable>
   </file>
   <file src="test/MultiByteTest.php">
-    <DeprecatedMethod occurrences="4">
-      <code>Text\MultiByte::strPad('äääöö', 2, 'ö')</code>
-      <code>Text\MultiByte::wordWrap('äbüöcß', 2, ' ', true)</code>
+    <DeprecatedMethod>
+      <code><![CDATA[Text\MultiByte::strPad('äääöö', 2, 'ö')]]></code>
+      <code><![CDATA[Text\MultiByte::wordWrap('äbüöcß', 2, ' ', true)]]></code>
     </DeprecatedMethod>
-    <MissingReturnType occurrences="2">
-      <code>testStrPadTriggersDeprecatedError</code>
-      <code>testWordWrapTriggersDeprecatedError</code>
+    <MissingReturnType>
+      <code><![CDATA[testStrPadTriggersDeprecatedError]]></code>
+      <code><![CDATA[testWordWrapTriggersDeprecatedError]]></code>
     </MissingReturnType>
-    <UnusedVariable occurrences="2">
-      <code>$line</code>
-      <code>$text</code>
-    </UnusedVariable>
   </file>
   <file src="test/TableTest.php">
-    <InvalidArgument occurrences="2">
-      <code>1</code>
-      <code>false</code>
+    <InvalidArgument>
+      <code><![CDATA[1]]></code>
+      <code><![CDATA[false]]></code>
     </InvalidArgument>
-    <MissingReturnType occurrences="37">
-      <code>testColumnAlignCenter</code>
-      <code>testColumnAlignLeft</code>
-      <code>testColumnAlignRight</code>
-      <code>testColumnDefaultInputEncoding</code>
-      <code>testColumnDefaultOutputEncoding</code>
-      <code>testColumnForcedEncoding</code>
-      <code>testColumnPadding</code>
-      <code>testColumnRenderInvalidArgument</code>
-      <code>testColumnSetAlignInvalidArgument</code>
-      <code>testColumnSetColSpanInvalidArgument</code>
-      <code>testColumnSetContentInvalidArgument</code>
-      <code>testColumnUnicodeWordwrap</code>
-      <code>testColumnWordwrap</code>
-      <code>testDecoratorAscii</code>
-      <code>testDecoratorBlank</code>
-      <code>testDecoratorUnicode</code>
-      <code>testDefaultColumnAlign</code>
-      <code>testRowAutoInsertColumns</code>
-      <code>testRowColumnsWithColSpan</code>
-      <code>testRowGetColumn</code>
-      <code>testRowGetColumnWidthsBeforeRendering</code>
-      <code>testRowGetColumns</code>
-      <code>testRowGetInvalidColumn</code>
-      <code>testRowMultiLine</code>
-      <code>testRowNotEnoughColumnWidths</code>
-      <code>testRowWithNoColumns</code>
-      <code>testTableColSpanWithMultipleRows</code>
-      <code>testTableComplex</code>
-      <code>testTableConstructInvalidColumnWidthsItem</code>
-      <code>testTableDecoratorEncodingDefault</code>
-      <code>testTableDecoratorLoaderAdvanced</code>
-      <code>testTableDecoratorLoaderSimple</code>
-      <code>testTableMagicToString</code>
-      <code>testTableSimpleRow</code>
-      <code>testTableWithoutRows</code>
-      <code>testUnicodeRowMultiLine</code>
-      <code>testUnicodeStringPadding</code>
+    <MissingReturnType>
+      <code><![CDATA[testColumnAlignCenter]]></code>
+      <code><![CDATA[testColumnAlignLeft]]></code>
+      <code><![CDATA[testColumnAlignRight]]></code>
+      <code><![CDATA[testColumnDefaultInputEncoding]]></code>
+      <code><![CDATA[testColumnDefaultOutputEncoding]]></code>
+      <code><![CDATA[testColumnForcedEncoding]]></code>
+      <code><![CDATA[testColumnPadding]]></code>
+      <code><![CDATA[testColumnRenderInvalidArgument]]></code>
+      <code><![CDATA[testColumnSetAlignInvalidArgument]]></code>
+      <code><![CDATA[testColumnSetColSpanInvalidArgument]]></code>
+      <code><![CDATA[testColumnSetContentInvalidArgument]]></code>
+      <code><![CDATA[testColumnUnicodeWordwrap]]></code>
+      <code><![CDATA[testColumnWordwrap]]></code>
+      <code><![CDATA[testDecoratorAscii]]></code>
+      <code><![CDATA[testDecoratorBlank]]></code>
+      <code><![CDATA[testDecoratorUnicode]]></code>
+      <code><![CDATA[testDefaultColumnAlign]]></code>
+      <code><![CDATA[testRowAutoInsertColumns]]></code>
+      <code><![CDATA[testRowColumnsWithColSpan]]></code>
+      <code><![CDATA[testRowGetColumn]]></code>
+      <code><![CDATA[testRowGetColumnWidthsBeforeRendering]]></code>
+      <code><![CDATA[testRowGetColumns]]></code>
+      <code><![CDATA[testRowGetInvalidColumn]]></code>
+      <code><![CDATA[testRowMultiLine]]></code>
+      <code><![CDATA[testRowNotEnoughColumnWidths]]></code>
+      <code><![CDATA[testRowWithNoColumns]]></code>
+      <code><![CDATA[testTableColSpanWithMultipleRows]]></code>
+      <code><![CDATA[testTableComplex]]></code>
+      <code><![CDATA[testTableConstructInvalidColumnWidthsItem]]></code>
+      <code><![CDATA[testTableDecoratorEncodingDefault]]></code>
+      <code><![CDATA[testTableDecoratorLoaderAdvanced]]></code>
+      <code><![CDATA[testTableDecoratorLoaderSimple]]></code>
+      <code><![CDATA[testTableMagicToString]]></code>
+      <code><![CDATA[testTableSimpleRow]]></code>
+      <code><![CDATA[testTableWithoutRows]]></code>
+      <code><![CDATA[testUnicodeRowMultiLine]]></code>
+      <code><![CDATA[testUnicodeStringPadding]]></code>
     </MissingReturnType>
-    <MixedAssignment occurrences="1">
-      <code>$decorator</code>
+    <MixedAssignment>
+      <code><![CDATA[$decorator]]></code>
     </MixedAssignment>
-    <MixedMethodCall occurrences="11">
-      <code>getBottomLeft</code>
-      <code>getBottomRight</code>
-      <code>getCross</code>
-      <code>getHorizontal</code>
-      <code>getHorizontalDown</code>
-      <code>getHorizontalUp</code>
-      <code>getTopLeft</code>
-      <code>getTopRight</code>
-      <code>getVertical</code>
-      <code>getVerticalLeft</code>
-      <code>getVerticalRight</code>
+    <MixedMethodCall>
+      <code><![CDATA[getBottomLeft]]></code>
+      <code><![CDATA[getBottomRight]]></code>
+      <code><![CDATA[getCross]]></code>
+      <code><![CDATA[getHorizontal]]></code>
+      <code><![CDATA[getHorizontalDown]]></code>
+      <code><![CDATA[getHorizontalUp]]></code>
+      <code><![CDATA[getTopLeft]]></code>
+      <code><![CDATA[getTopRight]]></code>
+      <code><![CDATA[getVertical]]></code>
+      <code><![CDATA[getVerticalLeft]]></code>
+      <code><![CDATA[getVerticalRight]]></code>
     </MixedMethodCall>
-    <MixedOperand occurrences="10">
-      <code>$decorator-&gt;getBottomLeft()</code>
-      <code>$decorator-&gt;getCross()</code>
-      <code>$decorator-&gt;getHorizontal()</code>
-      <code>$decorator-&gt;getHorizontalDown()</code>
-      <code>$decorator-&gt;getHorizontalUp()</code>
-      <code>$decorator-&gt;getTopLeft()</code>
-      <code>$decorator-&gt;getTopRight()</code>
-      <code>$decorator-&gt;getVertical()</code>
-      <code>$decorator-&gt;getVerticalLeft()</code>
-      <code>$decorator-&gt;getVerticalRight()</code>
+    <MixedOperand>
+      <code><![CDATA[$decorator->getBottomLeft()]]></code>
+      <code><![CDATA[$decorator->getCross()]]></code>
+      <code><![CDATA[$decorator->getHorizontal()]]></code>
+      <code><![CDATA[$decorator->getHorizontalDown()]]></code>
+      <code><![CDATA[$decorator->getHorizontalUp()]]></code>
+      <code><![CDATA[$decorator->getTopLeft()]]></code>
+      <code><![CDATA[$decorator->getTopRight()]]></code>
+      <code><![CDATA[$decorator->getVertical()]]></code>
+      <code><![CDATA[$decorator->getVerticalLeft()]]></code>
+      <code><![CDATA[$decorator->getVerticalRight()]]></code>
     </MixedOperand>
-    <UnusedVariable occurrences="4">
-      <code>$column</code>
-      <code>$column</code>
-      <code>$column</code>
-      <code>$table</code>
-    </UnusedVariable>
   </file>
 </files>
