@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-text",
+    "name": "magento/magento-zf-text",
     "description": "Create FIGlets and text-based tables",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -28,7 +28,7 @@
     "extra": {
     },
     "require": {
-        "php": "~8.1.0 || ~8.2.0 || ~8.3.0 || ~8.4.0",
+        "php": "^8.1",
         "laminas/laminas-servicemanager": "^3.22.0",
         "laminas/laminas-stdlib": "^3.7.1"
     },
@@ -37,6 +37,9 @@
         "phpunit/phpunit": "^10.5.38",
         "psalm/plugin-phpunit": "^0.18.4",
         "vimeo/psalm": "^5.26.1"
+    },
+    "replace": {
+        "laminas/laminas-text": "^2.12"
     },
     "autoload": {
         "psr-4": {
